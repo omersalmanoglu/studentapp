@@ -1,4 +1,4 @@
-Purpose : Using DB via RESP API
+Purpose : Simple CRUD operastions via Spring Boot Resp api
 
 Sprint Boot + Java  + Mongo DB
 
