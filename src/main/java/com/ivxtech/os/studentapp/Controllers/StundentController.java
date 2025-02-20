@@ -31,6 +31,12 @@ public class StundentController {
         return repository.findById(id);
     }
 
+    @GetMapping("/student/delete")
+    public String deleteById(@RequestParam(value = "id") String id){
+        repository.deleteById(id);
+        return "ok";
+    }
+
     @GetMapping("/students")
     public List<Student> findAll(){
         return repository.findAll();
