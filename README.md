@@ -1,4 +1,4 @@
-Purpose : Simple CRUD operastions via Spring Boot Resp api
+Purpose : Simple CRUD operastions via Spring Boot Rest api and Mongo DB
 
 Sprint Boot + Java  + Mongo DB
 
